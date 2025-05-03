@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "dwarfism",
+  "version": "${version}",
+  "name": "Dwarfism",
+  "description": "Adds a potion effect that makes players half a block tall",
+  "authors": [
+    "Example Author"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "sources": "https://github.com/example/dwarfism"
+  },
+  "license": "MIT",
+  "icon": "assets/dwarfism/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.dwarfism.Dwarfism"
+    ]
+  },
+  "mixins": [
+    "dwarfism.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.13",
+    "minecraft": "~1.21.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
