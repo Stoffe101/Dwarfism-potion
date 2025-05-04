@@ -1,4 +1,5 @@
 package com.example.dwarfism.effect;
+
 import com.example.dwarfism.Dwarfism;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;

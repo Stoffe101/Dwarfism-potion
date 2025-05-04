@@ -5,8 +5,10 @@
   "package": "com.example.dwarfism.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "PlayerEntityMixin"
   ],
   "client": [
+    "EntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
